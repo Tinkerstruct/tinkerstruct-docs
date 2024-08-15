@@ -1,1 +1,7 @@
 site_name: Tinkerstruct
+
+theme:
+  name: material
+  palette:
+    primary: yellow
+    accent: yellow

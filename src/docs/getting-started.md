@@ -1,4 +1,4 @@
-## 1. Install the IDE and Board Manager
+## Download and Install Software
 
 <details> <summary>For Windows</summary>
 
@@ -9,22 +9,22 @@
 [](https://www.notion.soundefined)
 </details>
 
-### For MacOS
 <details>
   <summary>For MacOS</summary>
   
-- Install the [Arduino IDE](https://www.arduino.cc/en/software):
+- Install the Arduino IDE: 
+  - [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg)
+  - [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg)
 - Install the driver.
 - Install the latest STM Cube Programmer for Windows 64 or Windows 32:
 
 </details>
 
-
 [](https://www.notion.soundefined)
 
 ---
 
-## 2. Plug in the Tinkerstruct Board
+## Set Up the Tinkerstruct Host Board
 
 To start programming, plug your Tinkerstruct board into your computer using a USB-C cable. The board can also be run when plugged into a power outlet. Click “Allow Accessory to Connect”. The green power light will turn on to confirm that the board is plugged in correctly.
 
