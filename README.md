@@ -11,7 +11,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 * `mkdocs build --clean` - Clean build
-* `mk-docs gh-deploy` - Deploy alternative (preferred)
+* `mkdocs gh-deploy` - Deploy alternative (preferred)
 
 https://Tinkerstruct.github.io/tinkerstruct-docs/
 
