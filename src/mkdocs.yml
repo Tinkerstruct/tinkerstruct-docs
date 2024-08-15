@@ -9,3 +9,6 @@ theme:
 markdown: kramdown
 kramdown:
   parse_block_html: true
+
+extra_css:
+  - stylesheets/extra.css

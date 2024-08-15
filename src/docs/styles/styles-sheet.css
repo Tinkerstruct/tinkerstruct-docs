@@ -1,0 +1,8 @@
+details summary {
+    color: grey;  /* Change the text color to grey */
+    cursor: pointer;  /* Ensure the cursor remains as a pointer */
+}
+
+details summary:hover {
+    color: darkgrey;  /* Optional: Change color on hover */
+}
