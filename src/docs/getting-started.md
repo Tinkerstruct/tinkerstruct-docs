@@ -12,7 +12,6 @@
 
 
 <details><summary>For MacOS</summary>
-  
 
 <ul>
   <li>Install the <a href="https://www.arduino.cc/en/software">Arduino IDE</a></li>
