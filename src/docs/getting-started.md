@@ -1,16 +1,15 @@
 ## Download and Install Software
 
-<details> <summary>For Windows</summary>
+<details><summary>For Windows</summary>
 
 - Install the [Arduino IDE](https://www.arduino.cc/en/software):
 - Install the driver.
 - Install the latest STM Cube Programmer for Windows 64 or Windows 32:
 
-[](https://www.notion.soundefined)
 </details>
 
-<details>
-  <summary>For MacOS</summary>
+
+<details><summary>For MacOS</summary>
   
 - Install the Arduino IDE: 
   - [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg)
