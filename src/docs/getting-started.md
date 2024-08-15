@@ -1,15 +1,21 @@
 ## Download and Install Software
+<button onclick="toggleSection()">Show/Hide Section</button>
+<div id="toggleSection" style="display:none;">
+  - Install the [Arduino IDE](https://www.arduino.cc/en/software).
+  - Install the driver.
+  - Install the latest STM Cube Programmer for Windows 64 or Windows 32.
+</div>
 
-<details><summary>For Windows</summary>
-
-<ul>
-  <li>Install the <a href="https://www.arduino.cc/en/software">Arduino IDE</a></li>
-  <li>Install the driver.</li>
-  <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32:</li>
-</ul>
-
-</details>
-
+<script>
+function toggleSection() {
+  var x = document.getElementById("toggleSection");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 <details><summary>For MacOS</summary>
 
