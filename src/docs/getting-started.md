@@ -2,20 +2,25 @@
 
 <details><summary>For Windows</summary>
 
-- Install the [Arduino IDE](https://www.arduino.cc/en/software):
-- Install the driver.
-- Install the latest STM Cube Programmer for Windows 64 or Windows 32:
+<ul>
+  <li>Install the <a href="https://www.arduino.cc/en/software">Arduino IDE</a></li>
+  <li>Install the driver.</li>
+  <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32:</li>
+</ul>
 
 </details>
 
 
 <details><summary>For MacOS</summary>
   
-- Install the Arduino IDE: 
-  - [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg)
-  - [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg)
-- Install the driver.
-- Install the latest STM Cube Programmer for Windows 64 or Windows 32:
+
+<ul>
+  <li>Install the <a href="https://www.arduino.cc/en/software">Arduino IDE</a></li>
+  <li>Install the driver.</li>
+  <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32:</li>
+</ul>
+
+<a href="https://www.notion.soundefined">Link</a>
 
 </details>
 
