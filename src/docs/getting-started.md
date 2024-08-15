@@ -1,22 +1,24 @@
 ## 1. Install the IDE and Board Manager
 
-### For Windows
-
-<details> <summary>More Information</summary> This section contains additional details that can be expanded by clicking. - Additional detail 1 - Additional detail 2 </details>
+<details> <summary>For Windows</summary>
 
 - Install the [Arduino IDE](https://www.arduino.cc/en/software):
 - Install the driver.
 - Install the latest STM Cube Programmer for Windows 64 or Windows 32:
 
 [](https://www.notion.soundefined)
+</details>
 
 ### For MacOS
+<details>
+  <summary>For MacOS</summary>
+  
+- Install the [Arduino IDE](https://www.arduino.cc/en/software):
+- Install the driver.
+- Install the latest STM Cube Programmer for Windows 64 or Windows 32:
 
-Ooof
+</details>
 
-Install the Arduino IDE for MacOS.
-
-Install the latest STM Cube Programmer:
 
 [](https://www.notion.soundefined)
 
