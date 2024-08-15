@@ -27,8 +27,6 @@
   <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32 </li>
 </ul>
 
-<a href="https://www.notion.soundefined">Link</a>
-
 </details>
 
 [](https://www.notion.soundefined)
