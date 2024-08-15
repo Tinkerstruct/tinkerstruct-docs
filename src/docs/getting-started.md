@@ -3,7 +3,11 @@
 <details><summary>For Windows</summary>
 
 <ul>
-  <li>Install the <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Arduino IDE</a></li>
+  <li>Install the Arduino IDE: </li>
+    <ul>
+    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Arduino IDE</a> </li>
+    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Arduino IDE</a> </li>
+</ul>
   <li>Install the driver.</li>
   <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32 </li>
 </ul>
@@ -14,13 +18,13 @@
 <details><summary>For MacOS</summary>
 
 <ul>
-  <li>Install the <a href="https://www.arduino.cc/en/software">Arduino IDE</a></li>
-  <ul>
-    <li>Sub 1</li>
-    <li>Sub 2</li>
+  <li>Install the Arduino IDE: </li>
+    <ul> 
+    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg">Intel, 10.15: “Catalina” or newer, 64 bitsE</a> </li>
+    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_arm64.dmg">Apple Silicon, 11: “Big Sur” or newer, 64 bits</a> </li>
 </ul>
   <li>Install the driver.</li>
-  <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32</li>
+  <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32 </li>
 </ul>
 
 <a href="https://www.notion.soundefined">Link</a>
@@ -60,7 +64,8 @@ below.
 
 > [!important]  
 > Notion Tip: Here at Notion we use this template to help teams plan, design and develop products with the greatest
-> chance for success. It helps teams think through their work more deeply, improves asynchronous communication with other
+> chance for success. It helps teams think through their work more deeply, improves asynchronous communication with
+> other
 > teams, and creates space for collaboration.
 
 
@@ -100,31 +105,43 @@ Problem
 >
 > - ==Question 1: Does everyone know what are we launching?==
     >
+
 - [ ] **Internal alignment**
   >
 - [ ] Can we explain what this change is?
+
 >         - [ ] Have you shared details of this change with other functions?
 >     - [ ] **External messaging**
+
         >
+
 - [ ] How are we going to communicate our launch to customers?
+
 >         - [ ] How will customers understand changes due to this launch?
 > - ==Question 2: Are we sure this is going to work?==
     >
+
 - [ ] **Quality**
   >
 - [ ] Has this product been tested appropriately?
+
 >         - [ ] Have we checked for effects on other products?
 >         - [ ] Have we done capacity planning?
 >         - [ ] Do we have a contingency plan if the launch doesn’t go well?
 >     - [ ] **Measurement**
+
         >
+
 - [ ] Do we know how to tell if this launch is a success or not?
+
 >         - [ ] Can others see how this launch is going?
 > - ==Question 3: What are our launch steps?==
     >
+
 - [ ] **Plan**
   >
 - [ ] Have you agreed on launch audiences with PMM?
+
 >         - [ ] Did we agree on launch steps with PMM?
 >
 > _==🚀 It’s go time!==_
