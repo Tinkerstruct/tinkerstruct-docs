@@ -6,3 +6,7 @@ details summary {
 details summary:hover {
     color: darkgrey;  /* Optional: Change color on hover */
 }
+
+ul {
+  list-style-type: none;
+}

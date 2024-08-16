@@ -20,7 +20,7 @@
 <ul>
   <li>Install the Arduino IDE: </li>
     <ul> 
-    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg">Intel, 10.15: “Catalina” or newer, 64 bitsE</a> </li>
+    <ol> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg">Intel, 10.15: “Catalina” or newer, 64 bitsE</a> </li>
     <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_arm64.dmg">Apple Silicon, 11: “Big Sur” or newer, 64 bits</a> </li>
 </ul>
   <li>Install the driver.</li>
