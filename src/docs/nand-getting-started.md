@@ -144,7 +144,8 @@ the input group comprises
 
 so can be thought of conceptually as the following block diagram:
 
-   ```
+```
+
    switches       output pins         LEDs
     __|__         _____|_____        __|__
    /     \       /           \      /     \
@@ -166,19 +167,16 @@ so can be thought of conceptually as the following block diagram:
    | s_3 | ~~~>  +-----+-----+ ~~~> | l_3 |
    +-----+       | s_3 | s_3 |      +-----+
                  +-----+-----+
-   ```
 
-The basic idea is: each switch is connected to 4 output pins which
-switch state, i.e., when the switch is pressed (resp. not pressed)
-the pins are 1 (resp. 0).
-Each output pin is also connected to an LED, allowing the state
-(i.e., 0 or 1) to be visualised.
-The purpose of this group is to allow convenient control of inputs
-at a fixed location on the board.
-It is obviously possible to control each input to a design using a
-jumper wire, then manually connecting it to (resp. disconnected it
-from) a constant pin to produce a 1 (resp. 0); a switch offers the
-same functionality, but is far easier to use.
+```
+
+The basic idea is: each switch is connected to 4 output pins which switch state, i.e., when the switch is pressed (resp.
+not pressed)
+the pins are 1 (resp. 0). Each output pin is also connected to an LED, allowing the state (i.e., 0 or 1) to be
+visualised. The purpose of this group is to allow convenient control of inputs at a fixed location on the board. It is
+obviously possible to control each input to a design using a jumper wire, then manually connecting it to (resp.
+disconnected it from) a constant pin to produce a 1 (resp. 0); a switch offers the same
+functionality, but is far easier to use.
 
 #### The output   group
 
@@ -189,7 +187,8 @@ the output group comprises
   and
 - 4 output LEDs,
 
-   ```
+```
+
     input pins          LEDs
     _____|_____        __|__
    /           \      /     \
@@ -211,7 +210,8 @@ the output group comprises
    +-----+-----+ ~~~> | l_3 |
    | x_3 | x_3 |      +-----+
    +-----+-----+
-   ```
+
+```
 
 The basic idea is:
 each input pin is connected to an LED, allowing the state
@@ -226,7 +226,8 @@ The constant group comprises
 an 8x2 output pin header,
 so can be thought of conceptually as the following block diagram:
 
-   ```
+```
+
    constant pins
     _____|_____ 
    /           \
@@ -248,7 +249,8 @@ so can be thought of conceptually as the following block diagram:
    +-----+-----+
    |  1  |  1  |
    +-----+-----+
-   ```
+   
+```
 
 The basic idea is: each constant pin is 1. That's it!
 The purpose of this group is related to the fact that elsewhere, an
