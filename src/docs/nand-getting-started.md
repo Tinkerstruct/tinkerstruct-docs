@@ -1,4 +1,4 @@
-# Getting started with the NAND board
+# Getting started with the NANDboard
 
 ## History
 
@@ -6,12 +6,11 @@ The original NANDboard was designed by Professor [Simon Hollis](http://www.cs.br
 of Bristol Undergraduate-level, 1st year (or "freshman") Computer Architecture unit. Although the module always had a
 practical emphasis, there was motivation to make the topic: a) more engaging, but also b) to promote ethos and skills
 that are of general use. For example, it could mean students participate more actively in
-[maker-like](http://en.wikipedia.org/wiki/Maker_culture),hardware-based (vs. software-only) projects.
+[maker-like](http://en.wikipedia.org/wiki/Maker_culture), hardware-based (vs. software-only) projects.
 
 As Professor Simon Hollis left at the end of the 2014/15 academic year, the project was subsequently taken over by Dr
 Daniel Page. More recently, the NAND board has been redesigned by Elliptic Systems and distributed by Tinkerstruct as a
-joint,
-open source project with Bristol University.
+joint, open source project with Bristol University.
 
 ## Concept
 
