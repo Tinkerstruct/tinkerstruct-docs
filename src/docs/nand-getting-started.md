@@ -69,7 +69,7 @@ each NAND group comprises
 
 so can be thought of conceptually as the following block diagram:
 
-   ```
+```
     input pins                NAND gates             output pins         LEDs
     _____|_____        ___________|__________        _____|_____        __|__
    /           \      /                      \      /           \      /     \
@@ -91,7 +91,7 @@ so can be thought of conceptually as the following block diagram:
    +-----+-----+      | r_3 = ~( x_3 & y_3 ) | ~~~> +-----+-----+ ~~~> | l_3 |
    | y_3 | y_3 | ~~~> |                      |      | r_3 | r_3 |      +-----+
    +-----+-----+      +----------------------+      +-----+-----+
-   ```
+```
 
 The basic idea is:
 
