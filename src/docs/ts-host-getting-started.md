@@ -1,4 +1,4 @@
-# Download and Install Software
+# Getting started with the TS host board
 
 <details><summary>For Windows</summary>
 
