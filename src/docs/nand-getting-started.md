@@ -4,15 +4,13 @@
 
 The original NANDboard was designed by Professor
 [Simon Hollis](http://www.cs.bris.ac.uk/home/simon) for the University of Bristol Undergraduate-level, 1st year (or "
-freshman") Computer Architecture unit. As Professor Simon Hollis left at the end of the 2014/15 academic year, the board was subsequently
-redesigned by Dr Daniel Page. Through his linkElliptic Systems and Tinkerstruct 
-
-
-Although it *always* had a practical emphasis, there was a view it should be even more
-hands-on: there were various motivations, included the fact that a) by doing so the topic could be more engaging, but
-also b) it seeds an
-ethos and skills that are of general use: for example, it could mean students participate more actively in
+freshman") Computer Architecture unit. Although the module always had a practical emphasis, there was motivation there
+was a view it should be even more hands-on so that the topic can be: a) more engaging, but also b) helps seed an
+ethos and skills that are of general use. For example, it could mean students participate more actively in
 [maker-like](http://en.wikipedia.org/wiki/Maker_culture),hardware-based (vs. software-only) projects.
+
+As Professor Simon Hollis left at the end of the 2014/15 academic year, the board was subsequently
+redesigned by Dr Daniel Page, and more recently, has been taken on Tinkerstruct/Elliptic Systems
 
 ## Concept
 

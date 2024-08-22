@@ -3,8 +3,8 @@ site_name: Tinkerstruct Documentation
 theme:
   name: material
   palette:
-    primary: grey
-    accent: yellow
+    primary: yellow
+    accent: grey
   logo: assets/logo.png
 
 markdown: kramdown
