@@ -5,6 +5,7 @@ theme:
   palette:
     primary: grey
     accent: yellow
+  logo: assets/logo.png
 
 markdown: kramdown
 kramdown:
@@ -12,6 +13,3 @@ kramdown:
 
 extra_css:
   - stylesheets/extra.css
-
-theme:
-  logo: assets/logo.png
