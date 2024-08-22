@@ -3,7 +3,7 @@ site_name: Tinkerstruct Documentation
 theme:
   name: material
   palette:
-    primary: gray
+    primary: grey
     accent: yellow
 
 markdown: kramdown
@@ -12,3 +12,6 @@ kramdown:
 
 extra_css:
   - stylesheets/extra.css
+
+theme:
+  logo: assets/logo.png

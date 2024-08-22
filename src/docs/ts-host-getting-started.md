@@ -1,4 +1,4 @@
-## Download and Install Software
+# Download and Install Software
 
 <details><summary>For Windows</summary>
 

@@ -1,4 +1,4 @@
-# NANDboard: hands-on Boolean algebra
+# NANDboard: Getting Started
 
 ## History
 
