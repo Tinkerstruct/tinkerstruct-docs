@@ -5,35 +5,28 @@
 The original NANDboard was designed by Professor [Simon Hollis](http://www.cs.bris.ac.uk/home/simon) for the University
 of Bristol Undergraduate-level, 1st year (or "freshman") Computer Architecture unit. Although the module always had a
 practical emphasis, there was motivation to make the topic: a) more engaging, but also b) to promote ethos and skills
-that are of general use. For example, it could mean students participate more actively in
+that are of general use. Such general use skills include promoting students to participate more actively in
 [maker-like](http://en.wikipedia.org/wiki/Maker_culture), hardware-based (vs. software-only) projects.
 
-As Professor Simon Hollis left at the end of the 2014/15 academic year, the project was subsequently taken over by Dr
-Daniel Page. More recently, the NAND board has been redesigned by Elliptic Systems and distributed by Tinkerstruct as a
-joint, open source project with Bristol University.
+As Professor Simon Hollis left Bristol University at the end of the 2014/15 academic year, the project was subsequently
+taken over by Dr Daniel Page. More recently, the NAND board has been redesigned by Elliptic Systems and distributed by
+Tinkerstruct as a joint, open source project with Bristol University.
 
 ## Concept
 
-Although fundamentally important in Computer Science,
-[Boolean algebra](http://en.wikipedia.org/wiki/Boolean_algebra)
-is a notoriously dry topic. The problem is exacerbated when hands-on
-experience amounts to solving paper-and-pencil exercises; the typical
-result is for students to be increasingly uninterested and disengaged.
-The underlying causes are varied, and differ from student to student.
-However, anecdotally at least, the following are common:
+Although fundamentally important in Computer Science, [Boolean algebra](http://en.wikipedia.org/wiki/Boolean_algebra) is
+a notoriously dry topic. The problem is exacerbated when hands-on experience amounts to solving paper-and-pencil
+exercises; the typical result is for students to be increasingly uninterested and disengaged. The underlying causes are
+varied, and differ from student to student. However, anecdotally at least, the following are common:
 
-- There is a disconnection between theory and practice, in the sense
-  it is unclear how Boolean algebra directly relates to intuitively
-  useful forms of computation;
-  this typically leads to students disengaging,
-  based on the view that said theory has no practical use (to them).
-- Paper-and-pencil exercises are of a necessarily small scale, which
-  can mean [toy problems](http://en.wikipedia.org/wiki/Toy_problem)
-  dominate;
-  this typically leads to students disengaging, e.g., because they
-  can easily solve said problems so avoid any deeper investigation
-  of physical constraints and properties, and unusual designs
-  (e.g., a [C-element](https://en.wikipedia.org/wiki/C-element)).
+- There is a disconnection between theory and practice, in the sense it is unclear how Boolean algebra directly relates
+  to intuitively useful forms of computation; this typically leads to students disengaging, based on the view that said
+  theory has no practical use (to them).
+- Paper-and-pencil exercises are of a necessarily small scale, which can
+  mean [toy problems](http://en.wikipedia.org/wiki/Toy_problem) dominate;
+  this typically leads to students disengaging, e.g., because they can easily solve said problems so avoid any deeper
+  investigation of physical constraints and properties, and unusual designs (
+  e.g., a [C-element](https://en.wikipedia.org/wiki/C-element)).
 - In part due to the wealth of resources available, modern students
   are used to and excited by the immediacy of software development;
   this is often direct motivation for studying Computer Science in
@@ -41,9 +34,8 @@ However, anecdotally at least, the following are common:
   towards Mathematics (which, for some, is less popular).
 
 Put another way, this approach is similar, by analogy, to learning
-[C](http://en.wikipedia.org/wiki/C_(programming_language))
-by studying the language and
-["hello world"](https://en.wikipedia.org/wiki/"Hello,_World!"_program)
+[C](http://en.wikipedia.org/wiki/C_(programming_language)) by studying the language
+and ["hello world"](https://en.wikipedia.org/wiki/"Hello,_World!"_program)
 style programs *without* ever actually compiling and executing them.
 
 An obvious alternative is to connect theory and practice directly, by
@@ -65,56 +57,14 @@ using jumper wire. There are, of course, some gratuitous
 [blinkenlights](http://en.wikipedia.org/wiki/Blinkenlights)
 to visualise the inputs and outputs.
 
-## Design
-
-Motivated in part by observing how students use them, the NANDboard
-design has gone through several revisions as is illustrated below:
-
- Revision |                                           Prototype                                           |                                        PCB                                        |                                                                                                                             Design files                                                                                                                             |
-:--------:|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-    B     |                                                                                               | <a href='./rev_b/image/pcb.jpg'><img src='./rev_b/image/pcb.jpg' width='200'></a> |                                                                                                                                                                                                                                                                      |
-    C     |                                                                                               | <a href='./rev_c/image/pcb.jpg'><img src='./rev_c/image/pcb.jpg' width='200'></a> |                                                                                                                                                                                                                                                                      |
-    D     |                                                                                               | <a href='./rev_d/image/pcb.jpg'><img src='./rev_d/image/pcb.jpg' width='200'></a> | [schematic](./rev_d/nandboard.sch) (plus [PDF](./rev_d/nandboard.pdf)), [board](./rev_d/nandboard.brd), [BOM](./rev_d/nandboard.csv), [OSH Park (PCB)](http://www.oshpark.com/shared_projects/KMYK0yGx), [Octopart (BOM)](http://www.octopart.com/bom-tool/RcuUFO2Y) |
-    E     | <a href='./rev_e/image/prototype.jpg'><img src='./rev_e/image/prototype.jpg' width='200'></a> | <a href='./rev_e/image/pcb.jpg'><img src='./rev_e/image/pcb.jpg' width='200'></a> | [schematic](./rev_e/nandboard.sch) (plus [PDF](./rev_e/nandboard.pdf)), [board](./rev_e/nandboard.brd), [BOM](./rev_e/nandboard.csv), [OSH Park (PCB)](http://www.oshpark.com/shared_projects/4jmm6cXa), [Octopart (BOM)](http://www.octopart.com/bom-tool/1i1poH1i) |
-
-At a high level, the (most recent revision of the) board is organised
-into various groups (or blocks). You can see them in the photograph,
-but, given the board is rotated somewhat, it's easier to consider the
-following block diagram:
-
-```
-+-----------------------------------------------+
-|o                                     USB     o|
-| +----------+----------+----------+----------+ |
-| |          |          |          |          | |
-| | input    | constant | output   | power    | |
-| | group    | group    | group    | group    | |
-| |          |          |          |          | |
-| +----------+----------+----------+----------+ |
-| |                     |                     | |
-| | NAND                | NAND                | |
-| | group #1            | group #3            | |
-| |                     |                     | |
-| +---------------------+---------------------+ |
-| |                     |                     | |
-| | NAND                | NAND                | |
-| | group #2            | group #4            | |
-| |                     |                     | |
-| +---------------------+---------------------+ |
-|o                                             o|
-+-----------------------------------------------+
-
-```
-
-#### The NAND     group(s)
+#### The NAND group(s)
 
 Viewed from left-to-right,
 each NAND group comprises
 
 - an 8x2 input pin header,
 - an [IC](http://www.ti.com/lit/gpn/sn74ac00) that houses 4 NAND gates,
-- an 8x2 output pin header,
-  and
+- an 8x2 output pin header, and
 - 4 output LEDs,
 
 so can be thought of conceptually as the following block diagram:
@@ -307,29 +257,3 @@ you need to compute
 for some reason: a reasonable approach is to connect the `y_0` input
 pin of the NAND gate to a 1-by-default pin in the constant group.
 
-## TODOs
-
-- Mainly because I already had a license for it, I used
-  [Eagle](http://www.cadsoftusa.com)
-  plus some 3rd-party libraries, e.g., for
-
-    - the surface mount [pin headers](http://drazzy.com/e/eaglelibs.shtml),
-    -
-  the [switches](http://github.com/LonghornEngineer/PP_Eagle_Part_Libraries/blob/master/Libraries/PP_Electromechanical.lbr),
-  and
-    - the [USB connector](http://github.com/daspilker/daspilker-eagle-library),
-
-  to implement the design. In hindsight it would've been more useful
-  to use
-  [KiCad](http://www.kicad.org),
-  and porting the implementation may be worthwhile in the long-term.
-
-- Clearly one could produce a NORboard equivalent: you don't need a
-  separate design, since replacing the NAND-based ICs for NOR-based
-  versions should be enough.
-
-- I'm in love with, and in awe of, the beautiful PCBs designed by
-  [Boldport](http://www.boldport.com).
-  I'm not sure what it'd look like, but you could argue it might be
-  interesting to explore a more creative, aesthetically pleasing
-  NANDboard along similar lines.
