@@ -26,21 +26,23 @@ details ul li {
 }
 
 details {
-  width: 50%;
-  margin: 0 auto;
-  background: #FDF4E3;;
-  margin-bottom: .5rem;
-  border-radius: 5px;
-  color: black;
-  outline: none;
+    width: 50%;
+    margin: 0 auto;
+    background: #FDF4E3;;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    border: 1px solid black;
 }
 
 summary {
-  padding: 1rem;
-  display: block;
-  padding-left: 2.2rem;
-  position: relative;
-  cursor: pointer;
+        border: 1px solid black;
+        padding: 1rem;
+        display: block;
+        padding-left: 2.2rem;
+        position: relative;
+        cursor: pointer;
 }
 
 details[open] summary {
@@ -50,16 +52,19 @@ details[open] summary {
 details:focus,
 details:hover,
 details:active {
-  background: #FDF4E3;
+    background: #FDF4E3;
+    border: 1px solid black;
 }
 
 summary:focus,
 summary:hover,
 summary:active {
-  background: none;
+    background: none;
+    border: 1px solid black;
 }
 
 
 details p {
-  padding: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
 }
