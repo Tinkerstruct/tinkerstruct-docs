@@ -3,6 +3,7 @@ details {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid black; /* Optional: border to differentiate the section */
+    background: #C09000; /* Green background */
 }
 
 /* Change the color of the summary (the clickable part) */
