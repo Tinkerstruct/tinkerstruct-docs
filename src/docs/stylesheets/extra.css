@@ -42,3 +42,18 @@
     background-color: #ccf !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important; /* Adds shadow to the details element */
 }
+
+.md-typeset details {
+  background-color: var(--md-admonition-bg-color);
+  border: .075rem solid black;
+  border-radius: .2rem;
+  box-shadow: var(--md-shadow-z1);
+  color: var(--md-admonition-fg-color);
+  display: flow-root;
+  font-size: .64rem;
+  margin: 1.5625em 0;
+  padding: 0 .6rem;
+    padding-top: 0px;
+  page-break-inside: avoid;
+  transition: box-shadow 125ms;
+}
