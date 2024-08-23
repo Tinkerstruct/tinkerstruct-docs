@@ -63,5 +63,5 @@
     box-shadow: none;
 }
 :root {
-    --md-admonition-icon--note: url("https://iconape.com/wp-content/files/vd/10462/png/notebook-1.png");
+    --md-admonition-icon--note: white;
 }
