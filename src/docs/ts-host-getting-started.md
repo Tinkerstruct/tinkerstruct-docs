@@ -1,5 +1,4 @@
 # Getting started with the TS host board
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
 <details><summary>For Windows</summary>
 
 <ul>
