@@ -3,6 +3,7 @@ site_name: Tinkerstruct Documentation
 theme:
   name: material
   scheme:
+  theme: readthedocs
   palette:
     primary: amber
     accent: yellow
