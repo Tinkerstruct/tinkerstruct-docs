@@ -39,6 +39,7 @@
 
 .md-typeset details:not([close]) > summary {
     border: black !important;
+    background: #C09000 !important;
     background-color: white !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important; /* Adds shadow to the details element */
 }
@@ -46,7 +47,7 @@
 .md-typeset details {
   border: .075rem solid black;
   border-radius: .2rem;
-  box-shadow: var(--md-shadow-z1);
+  box-shadow: none;
   color: black;
   display: flow-root;
   font-size: .64rem;
