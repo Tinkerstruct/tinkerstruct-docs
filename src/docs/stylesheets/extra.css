@@ -57,3 +57,7 @@
   page-break-inside: avoid;
   transition: box-shadow 125ms;
 }
+
+[data-md-color-primary="amber"]:not([data-md-color-scheme="slate"]) {
+  --md-typeset-a-color: #d19d00;
+}
