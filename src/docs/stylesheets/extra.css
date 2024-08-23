@@ -15,6 +15,13 @@ details summary {
     cursor: pointer;
 }
 
+summary::before{
+     background-color: #C09000;
+}
+
+summary::after{
+     background-color: #C09000;
+}
 /* Optional: Change the color when hovering over the summary */
 details summary:hover {
     background-color: #C09000; /* Darker green on hover */
