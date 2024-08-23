@@ -1,6 +1,7 @@
 details {
     background-color: #f0f0f0; /* Light gray background */
     padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the details element */
     border-radius: 5px;
     border: 1px solid black; /* Optional: border to differentiate the section */
     background: #C09000; /* Green background */
