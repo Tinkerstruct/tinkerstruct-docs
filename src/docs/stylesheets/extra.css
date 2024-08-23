@@ -2,12 +2,12 @@ details {
     background-color: #f0f0f0; /* Light gray background */
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc; /* Optional: border to differentiate the section */
+    border: 1px solid black; /* Optional: border to differentiate the section */
 }
 
 /* Change the color of the summary (the clickable part) */
 details summary {
-    background-color: #4CAF50; /* Green background */
+    background-color: #C09000; /* Green background */
     color: black; /* White text */
     padding: 5px;
     border-radius: 3px;
@@ -16,7 +16,7 @@ details summary {
 
 /* Optional: Change the color when hovering over the summary */
 details summary:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #C09000; /* Darker green on hover */
 }
 
 /* Optional: Change the list item color */
