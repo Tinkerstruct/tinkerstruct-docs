@@ -44,7 +44,7 @@
 }
 
 .md-typeset details {
-  background-color: var(--md-admonition-bg-color);
+  background-color: #C09000 !important;
   border: .075rem solid black;
   border-radius: .2rem;
   box-shadow: var(--md-shadow-z1);
