@@ -63,5 +63,5 @@
     box-shadow: none;
 }
 :root {
-    --md-admonition-icon--note: white;
+    --md-admonition-icon--note: url("not-a-link");
 }
