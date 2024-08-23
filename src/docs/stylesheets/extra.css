@@ -34,14 +34,14 @@
 .md-typeset details:not([open]) > summary {
     border: black !important;
     background: #C09000 !important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important; /* Adds shadow to the details element */
+     box-shadow: none;
 }
 
 .md-typeset details:not([close]) > summary {
     border: black !important;
     background: #C09000 !important;
     background-color: white !important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important; /* Adds shadow to the details element */
+    box-shadow: none; /* Adds shadow to the details element */
 }
 
 .md-typeset details {
@@ -60,4 +60,5 @@
 
 [data-md-color-primary="amber"]:not([data-md-color-scheme="slate"]) {
   --md-typeset-a-color: #d19d00;
+    box-shadow: none;
 }
