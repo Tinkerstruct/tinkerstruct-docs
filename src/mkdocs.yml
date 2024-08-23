@@ -7,7 +7,7 @@ theme:
   palette:
     primary: amber
     accent: yellow
-  logo: assets/logo.png
+  logo: "assets/logo.png"
 
 markdown: kramdown
 kramdown:
