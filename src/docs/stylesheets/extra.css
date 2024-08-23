@@ -62,7 +62,5 @@
   --md-typeset-a-color: #d19d00;
     box-shadow: none;
 }
-
 :root {
-    --md-admonition-icon--note: none
-}
+--md-admonition-icon--note: url("https://banner2.cleanpng.com/20180425/cew/aveo6f0wz.webp");
