@@ -10,7 +10,8 @@ details {
 /* Change the color of the summary (the clickable part) */
 details summary {
     background-color: #C09000; /* Green background */
-    color: black; /* White text */
+    color: black;
+    border: black;
     padding: 5px;
     border-radius: 3px;
     cursor: pointer;
@@ -19,21 +20,25 @@ details summary {
 
 /* Optional: Change the color when hovering over the summary */
 details summary:hover {
+    border: black;
     background-color: #C09000; /* Darker green on hover */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the details element */
 }
 
 /* Optional: Change the list item color */
 details ul li {
+    border: black;
     color: #333; /* Dark text */
 }
 
 details[open] summary {
+    border: black;
     background: #C09000;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the details element */
 }
 
 details[close] > summary {
+    border: black;
     background-color: #ccf;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the details element */
 }
