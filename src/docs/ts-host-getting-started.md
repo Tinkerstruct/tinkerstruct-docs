@@ -4,7 +4,7 @@
 
 <ol> 
 <li>Install the Arduino IDE using one of the links below: </li>
-    <p></p><a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Windows 10 or newer, 64 bits (recommended) </a> </li> <br>
+    <p></p><a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Windows 10 or newer, 64 bits (recommended) </a> </li> </p>
     <p></p><a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.msi">MSI Installer </a> </p>
     <p><a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.zip">ZIP File </a> </p>
 <li><a href="">Install the driver</a></li>
