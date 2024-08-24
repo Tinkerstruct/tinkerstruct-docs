@@ -1,6 +1,6 @@
 # Getting started with the TS host board
 
-## Download the software for programming.
+## Download the software.
 
 <details><summary>For Windows</summary>
 <ol> 
