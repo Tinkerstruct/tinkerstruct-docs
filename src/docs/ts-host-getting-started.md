@@ -5,10 +5,10 @@
 <ol> 
 <li>Install the Arduino IDE using one of the links below: </li>
     <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Windows 10 or newer, 64 bits (recommended) </a> </li>
-    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.msi">MSI Installer </a> </li>
-    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.zip">ZIP File </a> </li>
-<li>Install the driver:</li>
-<li>Install the latest STM Cube Programmer for Windows 64 or Windows 32 </li>
+    <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.msi">MSI Installer </a>
+    <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.zip">ZIP File </a>
+<li><a href="">Install the driver</a></li>
+<li> Install the latest STM Cube Programmer for <a href=""> Windows 64 </a> or <a href=""> Windows 32 </a> </li>
 </ol>
 
 </details>
@@ -16,15 +16,13 @@
 
 <details><summary>For MacOS</summary>
 
-<ul>
-  <li>Install the Arduino IDE: </li>
-    <ul> 
-    <ol> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg">Intel, 10.15: “Catalina” or newer, 64 bitsE</a> </li>
-    <li> <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_arm64.dmg">Apple Silicon, 11: “Big Sur” or newer, 64 bits</a> </li>
-</ul>
+<ol>
+<li>Install the Arduino IDE using one of the links below: </li>
+    <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_64bit.dmg">Intel, 10.15: “Catalina” or newer, 64 bitsE</a>
+    <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_macOS_arm64.dmg">Apple Silicon, 11: “Big Sur” or newer, 64 bits</a>
   <li>Install the driver.</li>
   <li>Install the latest STM Cube Programmer for Windows 64 or Windows 32 </li>
-</ul>
+</ol>
 
 </details>
 
