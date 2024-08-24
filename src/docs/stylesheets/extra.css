@@ -12,7 +12,7 @@
     box-shadow: none; /* Adds shadow to the details element */
 }
 
-ol li p {
+.md-typeset details p {
   margin-left: 20px; /* Adjust the indentation for paragraphs inside list items */
   margin-top: 5px; /* Adjusts the top margin to give space between the text and the paragraph */
 }
