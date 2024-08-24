@@ -12,8 +12,9 @@
     box-shadow: none; /* Adds shadow to the details element */
 }
 
-.p {
-  text-indent: 20% !important;
+ol li p {
+  margin-left: 20px; /* Adjust the indentation for paragraphs inside list items */
+  margin-top: 5px; /* Adjusts the top margin to give space between the text and the paragraph */
 }
 
 .md-typeset details {
