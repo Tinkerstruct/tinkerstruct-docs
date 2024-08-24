@@ -1,6 +1,6 @@
 # Getting started with the TS host board
 
-## Download the software for programming the Tinkerstruct board.
+## Download the software for programming.
 
 <details><summary>For Windows</summary>
 <ol> 
@@ -27,13 +27,13 @@
 
 ---
 
-## Set Up the Tinkerstruct host board
+## Set Up the Tinkerstruct host board.
 
 To start programming, plug your Tinkerstruct board into your computer using a USB-C cable. The board can also be run
 when plugged into a power outlet. Click “Allow Accessory to Connect”. The green power light will turn on to confirm that
 the board is plugged in correctly.
 
-![[1c30a005-b2cd-4db1-bc6f-832b8a4be182.png]]
+![src/images/plugin.png]]
 
 In your Downloads folder, double click on the Ardiuno IDE installation file to complete the installation. Do the same
 for the STM32 programmer. Once you open the Arduino IDE software, search for _Tinkerstruct in_ the boards list on the
