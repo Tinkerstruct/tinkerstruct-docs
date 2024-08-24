@@ -65,3 +65,7 @@
 :root {
     --md-admonition-icon--note: url("not-a-link");
 }
+
+.p {
+  text-indent: 20%;
+}
