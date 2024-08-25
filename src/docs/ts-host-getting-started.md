@@ -35,7 +35,7 @@ for the STM32 programmer. <br>
 
 Once the Arduino IDE software is installed, open the software, and go to Settings>Settings>"Additional boards manager
 URL". Paste the following link for the Tinkerstruct board manager into the settings: <a href="https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json">
-https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json </a>. Press "OK".
+https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json</a>. Press "OK".
 
 <img src="/images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
 
@@ -43,37 +43,31 @@ Now press on the drop down menu at the top of the screen, and "Select other boar
 Tinkerstruct board on the left and correct USB port on the right side and press "OK".
 <img src="/images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
 
-Once this is done, press PRG and then RST on your Tinkerstruct host board to reset the board. 
+Once this is done, slide the toggle to PRG and then RST on your Tinkerstruct host board to reset the board. Now you are ready for programing!
 
 ---
 ## RUN vs PRG
 The Tinkerstruct boards have a sophisticated programming circuit inbuilt into the board. This allows users to develop
 software within an IDE environment and experience dynamic compilation and upload, whilst providing the ability to store
 software in non-volatile memory to load user firmware automatically after power outages or resets. No extra hardware is
-required to program the board, instead a USB-C cable is all that is required.
+required to program the board apart from a USB-C cable.
 
 The board has two main physical switches that are necessary to use during normal operation:
 
-RUN/PRG slider switch
-RST toggle switch
+- RUN/PRG slider switch
+- RST toggle switch
 
 The RUN/PRG switch is a slide switch and indicates the mode of operation for the board.
-• When in RUN mode, the board will load the last uploaded program and execute it. Programming will not be possible in
+- When in RUN mode, the board will load the last uploaded program and execute it. Programming will not be possible in
 this mode and it is designed for use in production environments where users always wish to load their firmware even
-after power-outages or resets.
-• When in PRG mode, the board will boot into a specialised bootloader that permits the upload of programs via UART. The
+after power-outages or resets. This mode is also best if your board is continuously operating while plugged into mains power. 
+- When in PRG mode, the board will boot into a specialised bootloader that permits the upload of programs via UART. The
 IDE will automatically choose the settings for uploading programs. When you wish to upload a new program to the board
 simply press the RST button, this will stop execution of the current program and allow the board to accept a new
 program. This mode of operation is designed for development to allow users to test new programs quickly and easily.
 
 The RST switch simply resets (restarts) the microcontroller when pressed and based on the slide switch’s position will
-boot into the corresponding mode of operation.
-
-The board can also be run in RUN mode when plugged into a power outlet using the last code saved to the board. 
-
-(Disinction between hardware programming and software programming and why we teach both)
-(QR codes for installations)
-
+boot into the corresponding mode of operation. Press this to clear your code and upload new code to your controller.
 
 ## 3. Challenges via workbooks
 
@@ -136,3 +130,9 @@ void loop() {
 }
 
 ```
+
+## TO DO 
+
+(Disinction between hardware programming and software programming and why we teach both)
+(QR codes for installations)
+
