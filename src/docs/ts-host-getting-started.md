@@ -39,7 +39,7 @@ Paste the link for the Tinkerstruct board manager into the settings:
 
 https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json
 
-<img src="/images/load_board.png" width="100%" style="display: block; margin: 0 auto;"/>
+<img src="/images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
 
 <img src="/images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
 
