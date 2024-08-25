@@ -1,6 +1,6 @@
 # Getting started with the TS host board
 
-## Download the software.
+## Download the software
 
 <details><summary>For Windows</summary>
 <ol> 
@@ -23,42 +23,68 @@
 
 ---
 
-## Set Up the Tinkerstruct host board.
+## Set Up the Tinkerstruct host board
 
 To start programming, plug your Tinkerstruct board into your computer using a USB-C cable. Click “Allow Accessory to
 Connect”. The green power light will turn on to confirm that the board is plugged in correctly.
 
-Press PRG on board then RST after loading the board.
-
 <img src="/images/plugin.png" width="40%" style="display: block; margin: 0 auto;"/>
 
 In your Downloads folder, double click on the Ardiuno IDE installation file to complete the installation. Do the same
-for the STM32 programmer. Once you open the Arduino IDE software, search for _Tinkerstruct in_ the boards list on the
-left hand side. If this doesn’t automatically show up when opening the menu….
-Paste the link for the Tinkerstruct board manager into the settings: 
+for the STM32 programmer. <br>
 
-https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json
+Once the Arduino IDE software is installed, open the software, and go to Settings>Settings>"Additional boards manager
+URL". Paste the following link for the Tinkerstruct board manager into the settings:
+https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json. Press "OK".
 
 <img src="/images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
 
+Now press on the drop down menu at the top of the screen, and "Select other board and port". In the pop up, select the
+Tinkerstruct board on the left and correct USB port on the right side and press "OK".
 <img src="/images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
 
+Once this is done, press PRG and then RST on your Tinkerstruct host board to reset the board. 
 
-RUN 
-The board can also be run
-when plugged into a power outlet.
 ---
+## RUN vs PRG
+The Tinkerstruct boards have a sophisticated programming circuit inbuilt into the board. This allows users to develop
+software within an IDE environment and experience dynamic compilation and upload, whilst providing the ability to store
+software in non-volatile memory to load user firmware automatically after power outages or resets. No extra hardware is
+required to program the board, instead a USB-C cable is all that is required.
+
+The board has two main physical switches that are necessary to use during normal operation:
+
+RUN/PRG slider switch
+RST toggle switch
+
+The RUN/PRG switch is a slide switch and indicates the mode of operation for the board.
+• When in RUN mode, the board will load the last uploaded program and execute it. Programming will not be possible in
+this mode and it is designed for use in production environments where users always wish to load their firmware even
+after power-outages or resets.
+• When in PRG mode, the board will boot into a specialised bootloader that permits the upload of programs via UART. The
+IDE will automatically choose the settings for uploading programs. When you wish to upload a new program to the board
+simply press the RST button, this will stop execution of the current program and allow the board to accept a new
+program. This mode of operation is designed for development to allow users to test new programs quickly and easily.
+
+The RST switch simply resets (restarts) the microcontroller when pressed and based on the slide switch’s position will
+boot into the corresponding mode of operation.
+
+The board can also be run in RUN mode when plugged into a power outlet using the last code saved to the board. 
+
+(Disinction between hardware programming and software programming and why we teach both)
+(QR codes for installations)
+
 
 ## 3. Challenges via workbooks
 
-<a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Click here </a> to download the workbooks.
+<a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Click here </a> to download the
+workbooks.
 
 ## 3. Challenges via software
 
-You can access Tinkerstruct challenges using our online software (link) or using workbooks which can be downloaded
-below.
+See below some example codes.
 
-#### Starter code
+#### Starter code - all lights flashing
 
 ```
 
@@ -110,6 +136,3 @@ void loop() {
 }
 
 ```
-
-(Disinction between hardware programming and software programming and why we teach both)
-(QR codes for installations)
