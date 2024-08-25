@@ -1,6 +1,6 @@
 # tinkerstruct-docs
 
-
+Repository compiled using Github Actions upon pull request in .github/workflows/static.yaml. For local compilation use `mkdocs build` and `mkdocs serve`  in the src directory. 
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

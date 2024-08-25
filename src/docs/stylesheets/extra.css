@@ -36,5 +36,5 @@
     box-shadow: none;
 }
 :root {
-    --md-admonition-icon--note: url("src/notebook-svgrepo-com.svg");
+    --md-admonition-icon--note: url("assets/logo.png");
 }
