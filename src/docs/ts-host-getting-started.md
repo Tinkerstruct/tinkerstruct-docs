@@ -73,7 +73,7 @@ boot into the corresponding mode of operation. Press this to clear your code and
 
 ## 3. Challenges via workbooks
 
-<a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe">Click here </a> to download the
+Click<a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe"> here </a> to download the
 workbooks.
 
 ## 3. Challenges via software
