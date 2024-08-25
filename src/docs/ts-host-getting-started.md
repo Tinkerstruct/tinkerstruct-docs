@@ -57,10 +57,12 @@ The board has two main physical switches that are necessary to use during normal
 - RUN/PRG slider switch
 - RST toggle switch
 
-The RUN/PRG switch is a slide switch and indicates the mode of operation for the board.
+The RUN/PRG switch is a slide switch and indicates the mode of operation for the board:
+
 - When in RUN mode, the board will load the last uploaded program and execute it. Programming will not be possible in
 this mode and it is designed for use in production environments where users always wish to load their firmware even
 after power-outages or resets. This mode is also best if your board is continuously operating while plugged into mains power. 
+
 - When in PRG mode, the board will boot into a specialised bootloader that permits the upload of programs via UART. The
 IDE will automatically choose the settings for uploading programs. When you wish to upload a new program to the board
 simply press the RST button, this will stop execution of the current program and allow the board to accept a new
