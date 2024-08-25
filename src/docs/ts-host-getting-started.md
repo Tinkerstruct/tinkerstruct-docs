@@ -32,15 +32,13 @@
 To start programming, plug your Tinkerstruct board into your computer using a USB-C cable. The board can also be run
 when plugged into a power outlet. Click “Allow Accessory to Connect”. The green power light will turn on to confirm that
 the board is plugged in correctly.
-
-![tester](./docs/images/plugin.png)
+![plugin.png](images%2Fplugin.png)
 
 In your Downloads folder, double click on the Ardiuno IDE installation file to complete the installation. Do the same
 for the STM32 programmer. Once you open the Arduino IDE software, search for _Tinkerstruct in_ the boards list on the
 left hand side. If this doesn’t automatically show up when opening the menu….
 
-![[1eee84b5-50fb-4dfe-a7ae-37afcdfd38d8.png]]
-
+![load_board.png](images%2Fload_board.png)
 ---
 
 ## 3. Challenges via Workbooks
