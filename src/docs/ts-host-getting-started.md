@@ -85,7 +85,7 @@ See below some example codes.
 ```
 
 void setup() {
-  // This is the tinkerstruct base PIN mapping. DO NOT edit this unless you know what you're doing.
+  // This is the tinkerstruct base PIN mapping. DO NOT edit this unless you know what you're doing:
   #define A PA0
   #define B PA1
   #define C PA2
@@ -100,7 +100,7 @@ void setup() {
   #define L PC14
   #define M PC15
 
-  // Setting up the GPIO pin modes
+  // Setting up the GPIO pin modes: 
   pinMode(A, OUTPUT);
   pinMode(B, OUTPUT);
   pinMode(C, OUTPUT);
@@ -133,8 +133,9 @@ void loop() {
 
 ```
 
+
+
 ## TO DO 
 
 (Disinction between hardware programming and software programming and why we teach both)
 (QR codes for installations)
-
