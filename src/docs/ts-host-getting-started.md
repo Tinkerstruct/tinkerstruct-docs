@@ -28,7 +28,7 @@
 To start programming, plug your Tinkerstruct board into your computer using a USB-C cable. Click “Allow Accessory to
 Connect”. The green power light will turn on to confirm that the board is plugged in correctly.
 
-<img src="/images/plugin.png" width="40%" style="display: block; margin: 0 auto;"/>
+<img src="../images/plugin.png" width="40%" style="display: block; margin: 0 auto;"/>
 
 In your Downloads folder, double click on the Ardiuno IDE installation file to complete the installation. Do the same
 for the STM32 programmer. <br>
@@ -37,11 +37,11 @@ Once the Arduino IDE software is installed, open the software, and go to Setting
 URL". Paste the following link for the Tinkerstruct board manager into the settings: <a href="https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json">
 https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json</a>. Press "OK".
 
-<img src="/images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
+<img src="../images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
 
 Now press on the drop down menu at the top of the screen, and "Select other board and port". In the pop up, select the
 Tinkerstruct board on the left and correct USB port on the right side and press "OK".
-<img src="/images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
+<img src="../images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
 
 Once this is done, slide the toggle to PRG and then RST on your Tinkerstruct host board to reset the board. Now you are ready for programing!
 
