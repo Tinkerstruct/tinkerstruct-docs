@@ -1,9 +1,9 @@
 **# Welcome to Tinkerstruct**
 
-| Tinkerstruct Host Boards                          | Last Updated      |
-|---------------------------------------------------|-------------------|
-| [Getting started](ts-host-getting-started)        | August 15, 2024   |
-| [Additional resources and manuals](install-links) | August 10, 2024   |
+| Tinkerstruct Host Boards                   | Last Updated      |
+|--------------------------------------------|-------------------|
+| [Getting started](ts-host-getting-started) | August 15, 2024   |
+| [Resources](ts-resources)                  | August 10, 2024   |
 
 
 | Nand Boards                                       | Last Updated    |
