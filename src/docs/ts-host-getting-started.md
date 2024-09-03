@@ -25,23 +25,24 @@
 
 ## Set Up the Tinkerstruct host board
 
-To start programming, plug your Tinkerstruct board into your computer using a USB-C cable. Click “Allow Accessory to
-Connect”. The green power light will turn on to confirm that the board is plugged in correctly.
+To start tinkering with your new kit, plug your Tinkerstruct board into your computer using a USB-C cable.  
+The green power light will turn on to confirm that the board is plugged in correctly.
+If using a Mac, you may see a prompt asking you to allow the accessory to connect.
 
-<img src="/images/plugin.png" width="40%" style="display: block; margin: 0 auto;"/>
+<img src="../images/plugin.png" width="40%" style="display: block; margin: 0 auto;"/>
 
 In your Downloads folder, double click on the Ardiuno IDE installation file to complete the installation. Do the same
 for the STM32 programmer. <br>
 
-Once the Arduino IDE software is installed, open the software, and go to Settings>Settings>"Additional boards manager
+Once the Arduino IDE software is installed, open the software, and go to Settings->Settings>"Additional boards manager
 URL". Paste the following link for the Tinkerstruct board manager into the settings: <a href="https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json">
 https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json</a>. Press "OK".
 
-<img src="/images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
+<img src="../images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
 
 Now press on the drop down menu at the top of the screen, and "Select other board and port". In the pop up, select the
 Tinkerstruct board on the left and correct USB port on the right side and press "OK".
-<img src="/images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
+<img src="../images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
 
 Once this is done, slide the toggle to PRG and then RST on your Tinkerstruct host board to reset the board. Now you are ready for programing!
 
@@ -59,17 +60,21 @@ The board has two main physical switches that are necessary to use during normal
 
 The RUN/PRG switch is a slide switch and indicates the mode of operation for the board:
 
-- When in RUN mode, the board will load the last uploaded program and execute it. Programming will not be possible in
-this mode and it is designed for use in production environments where users always wish to load their firmware even
-after power-outages or resets. This mode is also best if your board is continuously operating while plugged into mains power. 
+### RUN Mode:  
+- The board will always start and run the last uploaded program.
+- You cannot change the program in this mode.
+- This mode is ideal when you want the board to do the same thing every time, even after a power outage or reset.
 
-- When in PRG mode, the board will boot into a specialised bootloader that permits the upload of programs via UART. The
-IDE will automatically choose the settings for uploading programs. When you wish to upload a new program to the board
-simply press the RST button, this will stop execution of the current program and allow the board to accept a new
-program. This mode of operation is designed for development to allow users to test new programs quickly and easily.
+### PRG Mode:
+- The board is ready to receive a new program.
+- To upload a new program, press a button to stop the current one.
+- You can then send a new program to the board.
+- This mode is useful for testing and trying out new programs quickly.
 
-The RST switch simply resets (restarts) the microcontroller when pressed and based on the slide switch’s position will
-boot into the corresponding mode of operation. Press this to clear your code and upload new code to your controller.
+### RST Button:
+- Pressing the RST button restarts the board.
+- Depending on the mode switch, the board will start in either RUN or PRG mode.
+- In PRG mode, pressing RST clears the current code and prepares the board for new code to be uploaded.
 
 ## 3. Challenges via workbooks
 
