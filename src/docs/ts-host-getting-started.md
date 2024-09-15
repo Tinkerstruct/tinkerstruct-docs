@@ -35,7 +35,8 @@ In your Downloads folder, double click on the Ardiuno IDE installation file to c
 for the STM32 programmer. <br>
 
 Once the Arduino IDE software is installed, open the software, and go to Settings->Settings>"Additional boards manager
-URL". Paste the following link for the Tinkerstruct board manager into the settings: <a href="https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json">
+URL". Paste the following link for the Tinkerstruct board manager into the
+settings: <a href="https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json">
 https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json</a>. Press "OK".
 
 <img src="../images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
@@ -44,10 +45,13 @@ Now press on the drop down menu at the top of the screen, and "Select other boar
 Tinkerstruct board on the left and correct USB port on the right side and press "OK".
 <img src="../images/github_link_upload.png" width="100%" style="display: block; margin: 0 auto;"/>
 
-Once this is done, slide the toggle to PRG and then RST on your Tinkerstruct host board to reset the board. Now you are ready for programing!
+Once this is done, slide the toggle to PRG and then RST on your Tinkerstruct host board to reset the board. Now you are
+ready for programing!
 
 ---
+
 ## RUN vs PRG
+
 The Tinkerstruct boards have a sophisticated programming circuit inbuilt into the board. This allows users to develop
 software within an IDE environment and experience dynamic compilation and upload, whilst providing the ability to store
 software in non-volatile memory to load user firmware automatically after power outages or resets. No extra hardware is
@@ -60,18 +64,21 @@ The board has two main physical switches that are necessary to use during normal
 
 The RUN/PRG switch is a slide switch and indicates the mode of operation for the board:
 
-### RUN Mode:  
+### RUN Mode:
+
 - The board will always start and run the last uploaded program.
 - You cannot change the program in this mode.
 - This mode is ideal when you want the board to do the same thing every time, even after a power outage or reset.
 
 ### PRG Mode:
+
 - The board is ready to receive a new program.
 - To upload a new program, press a button to stop the current one.
 - You can then send a new program to the board.
 - This mode is useful for testing and trying out new programs quickly.
 
 ### RST Button:
+
 - Pressing the RST button restarts the board.
 - Depending on the mode switch, the board will start in either RUN or PRG mode.
 - In PRG mode, pressing RST clears the current code and prepares the board for new code to be uploaded.
@@ -86,6 +93,10 @@ workbooks.
 See below some example codes.
 
 #### Starter code - all lights flashing
+
+In this code, an array of pins is declared of type char. A for loop is initiated to cycle through pins A-L on the
+Tinkerstruct board. i is used as an iterator and is incremented by 1 in every repeat of the loop (i++). The pin()
+function is called to switch on the pin, to delay 100ms and then switch the pin off for every loop. 
 
 ```
 
@@ -118,7 +129,6 @@ void setup() {
   pinMode(J, OUTPUT);
   pinMode(K, OUTPUT);
   pinMode(L, OUTPUT);
-  pinMode(M, OUTPUT);
 
   // Setting up some helper aliases
   #define ON HIGH
@@ -128,7 +138,7 @@ void setup() {
 
 void loop() {
   // This is user code land, put your code here.
-  char pins[] = {A, B, C, D, E, F, G, H, I, J, K, L, M};
+  char pins[] = {A, B, C, D, E, F, G, H, I, J, K, L};
   for (int i=0; i<12; i++){
     pin(pins[i], ON);
     delay(100);
@@ -137,10 +147,3 @@ void loop() {
 }
 
 ```
-
-
-
-## TO DO 
-
-(Disinction between hardware programming and software programming and why we teach both)
-(QR codes for installations)

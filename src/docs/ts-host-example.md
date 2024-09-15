@@ -1,6 +1,10 @@
 # Example Codes
 
 ### Light up all gems in sequence
+
+In this code, an array of pins is declared of type char. A for loop is initiated to cycle through pins A-L on the
+Tinkerstruct board. i is used as an iterator and is incremented by 1 in every repeat of the loop (i++). The pin()
+function is called to switch on the pin, to delay 100ms and then switch the pin off for every loop. 
 ```
 void setup() {
   // This is the tinkerstruct base PIN mapping. DO NOT edit this unless you know what you're doing:
@@ -52,6 +56,10 @@ void loop() {
 ```
 
 ### Light up a random gem (out of the first 6)
+
+In this code, an array of pins is declared of type char. A for loop is initiated to cycle through pins A-L on the
+Tinkerstruct board. i is used as an iterator and is incremented by 1 in every repeat of the loop (i++). The pin()
+function is called to switch on the pin, to delay 100ms and then switch the pin off for every loop. 
 ```
 void setup() {
   #define A PA0
