@@ -1,4 +1,4 @@
-** Welcome to Tinkerstruct**
+<b><h1> Welcome to Tinkerstruct </h1></b>
 
 | Tinkerstruct Host Boards                   | Last Updated       |
 |--------------------------------------------|--------------------|
