@@ -36,8 +36,8 @@ for the STM32 programmer. <br>
 
 Once the Arduino IDE software is installed, open the software, and go to Settings->Settings>"Additional boards manager
 URL". Paste the following link for the Tinkerstruct board manager into the
-settings: <a href="https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json">
-https://github.com/ellipticsystems/ArduinoBoardManager/blob/main/tinkerstruct.json</a>. Press "OK".
+settings: <a href="https://raw.githubusercontent.com/ellipticsystems/ArduinoBoardManager/main/tinkerstruct.json">
+https://raw.githubusercontent.com/ellipticsystems/ArduinoBoardManager/main/tinkerstruct.json</a>. Press "OK".
 
 <img src="../images/load_boards.png" width="100%" style="display: block; margin: 0 auto;"/>
 
